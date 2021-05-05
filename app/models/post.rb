@@ -1,7 +1,15 @@
 class Post < ApplicationRecord
-  validates(:user_id, presence: {:message "Must be related with a user")
-  validates(:title, presence: {:message "Title is required"}, length: { in: 10..100 })
-  validates(:content, presence: {:message "Content can't be empty"}, length: { in: 140..3_140})
+  validates :content, presence: { message: 'Content is required' }, length: {
+    minimum: 100,
+    maximum: 500
+  }
+
+  validates :title, presence: { message: 'Title is required' }, length: {
+    minimum: 10,
+    maximum: 50
+  }
+
+  validates :user_id, presence: { message: 'This is needed to stabilish a relation with user table' }
 
   belongs_to :user
   has_many :comments

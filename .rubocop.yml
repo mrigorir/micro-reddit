@@ -6,7 +6,7 @@ AllCops:
     - "node_modules/**/*"
     - "Gemfile"
     - "spec/spec_helper.rb"
-
+    
   DisplayCopNames: true
 
 Layout/LineLength:
