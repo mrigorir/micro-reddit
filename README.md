@@ -7,13 +7,11 @@
 
 **What was built in this project**
 
-- Create Comment, User, and Post Models
+- This project is inspired on reddit webpage, and it's goal is to achieve the best coding practices for posts using Ruby on Rails Active Record;
 
-- Run immigrations to the DB
+  making applying CRUD actions, stabilishing relations between tables and validating the submitting input data from the user in order to avoid errors
 
-- Add validations to user input
-
-- Establish the relationships between tables
+  witch otherwise could affect the database information.  
 
 
 ## Built With
@@ -31,9 +29,10 @@
 
 Text Editor (VSCode is suggested.) Ruby Rails Bundler Yarn SQL
 
+
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps:
 
 - On the project GitHub page, navigate to the main page of the repository [this page](https://github.com/mrigorir/micro-reddit.git).
 
@@ -43,7 +42,9 @@ To get a local copy up and running follow these simple example steps.
 
 - If you're running Windows Operating System, open your command prompt. On Linux, Open your terminal.
 
-- Change the current working directory to the location where you want the cloned directory to be made. Leave as it is if the current location is where you want the project to be.
+- Change the current working directory to the location where you want the cloned directory to be made. Leave as it is if the current location is where    
+
+  you want the project to be.
 
 - Type `git clone`, and then paste the URL you copied in Step 3.<br>
 
@@ -54,13 +55,21 @@ To get a local copy up and running follow these simple example steps.
 Please Note that you must have Git installed on your PC, this can be done [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03).
 
 
+- After you get the project aiming to the desired directory, you need now to install ruby globally
+  
+  for that, in your terminal run `bundle install` to install the project's dependencies.
+
+- Run `db:migrate` so you can have the reprsentations of tables in your project
+
+- Run `rails c` in order to interact with your terminal app.
+
 ## Authors
 
 👤 **Marco Parra**
 
 - GitHub: [@mrigorir](https://github.com/mrigorir)
 - Twitter: [@marcoparra311](https://twitter.com/marcoparra311)
-- LinkedIn: [marco-alonso-parra](https://www.linkedin.com/in/marco-alonso-parra/)
+- LinkedIn: [@marco-alonso-parra](https://www.linkedin.com/in/marco-alonso-parra/)
 
 👤 **Francis Uloko**
 
