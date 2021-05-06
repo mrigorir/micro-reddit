@@ -9,8 +9,6 @@ class Post < ApplicationRecord
     maximum: 50
   }
 
-  validates :user_id, presence: { message: 'This is needed to stabilish a relation with user table' }
-
   belongs_to :user
   has_many :comments
 end
