@@ -2,16 +2,16 @@
 
 # Micro_Reddit
 
-> This is a Micro-reddit version from the true [reddit website](https://www.reddit.com/)
+> This is a Micro-reddit version from the true [reddit website](https://www.reddit.com/)  and it's goal is to achieve the best coding practices for posts using Ruby on Rails Active Record, making applying CRUD actions, stabilishing relations between tables and validating the submitting input data from the user in order to avoid errors witch otherwise could affect the database information.  
 
-
+  
 **What was built in this project**
 
-- This project is inspired on reddit webpage, and it's goal is to achieve the best coding practices for posts using Ruby on Rails Active Record;
+- Created User, Post and Comment Models.
 
-  making applying CRUD actions, stabilishing relations between tables and validating the submitting input data from the user in order to avoid errors
+- Created validations for all of the fields these table posseses
 
-  witch otherwise could affect the database information.  
+- Stabilished relationships between tables
 
 
 ## Built With
